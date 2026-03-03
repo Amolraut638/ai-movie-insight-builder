@@ -72,15 +72,18 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 ```
-/app
-  /api
-    /movie        → API route to fetch movie details from TMDB
-    /sentiment    → API route to run AI sentiment analysis via Groq
-  /components     → Reusable UI components (MovieCard, SentimentBadge, etc.)
-  /page.tsx       → Main page with search input and results
-/lib
-  tmdb.ts         → TMDB API helper functions
-  groq.ts         → Groq AI helper functions
+/src
+  /app
+    /api
+      /movie-insight
+        /route.ts      : API route to fetch movie details from TMDB
+    /global.css
+    /layout.tsx
+    /page.tsx
+  /components  
+  /lib      
+    tmdb.ts         → TMDB API helper functions
+    ai.ts         → Groq AI helper functions
 ```
 
 ---
