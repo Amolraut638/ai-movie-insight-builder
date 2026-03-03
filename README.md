@@ -90,7 +90,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Deployment
 
-Live demo: [your-app.vercel.app]https://amols-ai-movie-insight-builder.vercel.app/
+Live demo: https://amols-ai-movie-insight-builder.vercel.app
 
 Deployed on Vercel. To deploy your own:
 
