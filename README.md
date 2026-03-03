@@ -19,10 +19,10 @@ Enter an IMDb ID (like `tt0133093`) and the app fetches:
 
 ## Tech Stack
 
-**Frontend** — Next.js (App Router), React, Tailwind CSS  
-**Backend** — Next.js API Routes  
-**Movie Data** — TMDB API  
-**AI** — Groq AI (for sentiment analysis)
+**Frontend** : Next.js (App Router), React, Tailwind CSS  
+**Backend** : Next.js API Routes  
+**Movie Data** : TMDB API  
+**AI** : Groq AI (for sentiment analysis)
 
 ### Why this stack?
 
@@ -82,15 +82,15 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
     /page.tsx
   /components  
   /lib      
-    tmdb.ts         → TMDB API helper functions
-    ai.ts         → Groq AI helper functions
+    tmdb.ts         : TMDB API helper functions
+    ai.ts         : Groq AI helper functions
 ```
 
 ---
 
 ## Deployment
 
-Live demo: [your-app.vercel.app](https://your-app.vercel.app)
+Live demo: [your-app.vercel.app]https://amols-ai-movie-insight-builder.vercel.app/
 
 Deployed on Vercel. To deploy your own:
 
