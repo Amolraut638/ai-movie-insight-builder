@@ -28,6 +28,10 @@ Enter an IMDb ID (like `tt0133093`) and the app fetches:
 
 Next.js handles both frontend and backend in a single project, which keeps things clean and avoids unnecessary complexity. Tailwind makes styling fast. TMDB is the most reliable free source for movie metadata and reviews. Groq gives fast AI inference without the latency of heavier models.
 
+IMDb does not provide a free public API suitable for this assignment.
+So I used TMDB, which supports IMDb ID resolution via their /find endpoint.
+This allowed me to accept IMDb IDs while maintaining clean API integration without violating scraping policies.
+
 ---
 
 ## Getting Started
